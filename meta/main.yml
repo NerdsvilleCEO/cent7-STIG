@@ -1,0 +1,19 @@
+---
+galaxy_info:
+  author: "David Morse"
+  description: "Ansible role to apply RHEL 6 STIG to CentOS 7 box"
+  license: MIT
+  min_ansible_version: 1.8
+  version: 1.0
+
+  platforms:
+  - name: EL
+    versions:
+      - 7
+
+  galaxy_tags:
+    - system
+    - security
+    - STIG
+
+dependencies: []
